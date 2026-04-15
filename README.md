@@ -13,9 +13,9 @@ git status
 got add . 
 git commit _m "feat: Initial Setup"
 
-remote add orign //https://github.com 
+git remote add orign //https://github.com 
 git push orign master git pul orign master
-
+git pull prign master
 ```
 
 ## python foundation 
