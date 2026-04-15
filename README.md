@@ -17,3 +17,9 @@ remote add orign //https://github.com
 git push orign master git pul orign master
 
 ```
+
+## python foundation 
+
+-primitive variable 
+-loops
+-objects
