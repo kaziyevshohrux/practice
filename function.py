@@ -36,3 +36,17 @@ print(result2)
 
 # parametr = define qilganda beriladigan nom
 # argument = call qilganda beriladigan qiymat
+
+
+print('======================')
+
+
+def give_gret(name, age=22):
+    print('give_gret is executed')
+    return f"Hello, {name}! i am {age} years old."
+
+result3 = give_gret(name='Omar')
+print(result3)
+
+#keyword = call qilganda parametr nomi bilan beriladigan argument
+# default = parametrga default qiymat berish
