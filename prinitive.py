@@ -28,3 +28,23 @@ print(f"result(4): {resultt}")
 
 
 print('====boolean=====')
+
+# functions   str , int , input , bool ()
+
+a = input('give value : ')
+print('a:',a)
+
+res = a.isnumeric()
+print('a:',res)
+
+
+# truthy and falthy 
+
+# truth  > true , 100 , -100 , 'dsff'
+# falsy  > false  , 0  , '' , none 
+
+test_falsy = '' or False or None or 10
+print(bool(test_falsy))
+
+test_truth= 'dasas' or 100  or -10
+print(bool(test_truth))
