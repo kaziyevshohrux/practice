@@ -48,3 +48,12 @@ print(bool(test_falsy))
 
 test_truth= 'dasas' or 100  or -10
 print(bool(test_truth))
+
+
+print('===========scopes===========')
+b=100
+def calculate(a):
+    c= a*b
+    return c
+result = calculate(10)
+print(result)
