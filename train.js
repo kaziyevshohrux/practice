@@ -49,8 +49,8 @@ const animal_list = ["fox" , "ant" , "bird", "lion" , "dog", "goat"]
 function findAnimal(txt){
     let a = txt.split('')
     let animals = []
-    for (let i=0; a.length>i; i++){
-        animal_list.filter((ele) =>{
+    
+        animal_list.forEach((ele) =>{
            let aa= ele.split('')
           const isMatch = aa.every((e) =>{
             return a.includes(e)
@@ -63,7 +63,7 @@ function findAnimal(txt){
              
         
 
-    }
+    
     return animals
 }
         
