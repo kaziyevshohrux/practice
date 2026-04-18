@@ -40,7 +40,7 @@ function countDigit(numabs){
     }
     return count.length
 }
-console.log(countDigit("ad2a54y79w4t0sfgb9"))
+console.log(countDigit("ad2a5 4y79w4t0sfgb9"))
 
 
 console.log("=============================================")
@@ -53,15 +53,17 @@ const animal_list = ["fox" , "ant" , "bird", "lion" , "dog", "goat"]
 
 function findAnimal(txt){
     let a = txt.split('')
+    //console.log(a)
     let animals = []
     animal_list.forEach((ele) =>{
         let aa= ele.split('')
+        //console.log(aa)
           const isMatch = aa.every((e) =>{
             return a.includes(e)
               })
                 if(isMatch){
                     animals.push(ele)
-                    animal_list.splice(animal_list.indexOf(ele),1)
+                    
                 }
             }
         )
