@@ -102,3 +102,32 @@
 
 # fullstack = front_end + back_end
 # print(fullstack)
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+ages.sort()
+print(ages)
+min = ages[0]
+max = ages[-1]
+print('min age:', min)
+print('max age:', max)
+ages.append(min)
+ages.append(max)
+print(ages)
+
+total = sum(ages)
+avarge = total / len(ages)
+print('total age:', total)
+print('avarge age:', avarge)
+
+a= abs(min)
+print(a)
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+
+middle = len(front_end) //2 
+print(front_end[middle])
+
+con = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+fir, sec,th,fou, *res = con
+print(res)
