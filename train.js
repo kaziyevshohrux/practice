@@ -27,20 +27,20 @@ MASALAN countLetter("e", "engineer") 3ni return qiladi.
 
 //Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
 //MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
-count = [];
-numbers = [0,1,2,3,4,5,6,7,8,9]
-function countDigit(numabs){
-    numabs.split('')
-    for(i=0; numbers.length>i;i++){
-        for (j=0; numabs.length>j; j++){
-            if (numbers[i]==numabs[j]){
-                count.push(numbers[i])
-            }
-        }
-    }
-    return count.length
-}
-console.log(countDigit("ad2a5 4y79w4t0sfgb9"))
+// count = [];
+// numbers = [0,1,2,3,4,5,6,7,8,9]
+// function countDigit(numabs){
+//     numabs.split('')
+//     for(i=0; numbers.length>i;i++){
+//         for (j=0; numabs.length>j; j++){
+//             if (numbers[i]==numabs[j]){
+//                 count.push(numbers[i])
+//             }
+//         }
+//     }
+//     return count.length
+// }
+// console.log(countDigit("ad2a5 4y79w4t0sfgb9"))
 
 
 console.log("=============================================")
@@ -49,28 +49,28 @@ console.log("=============================================")
 
 // Challenge task
 
-const animal_list = ["fox" , "ant" , "bird", "lion" , "dog", "goat"]
+// const animal_list = ["fox" , "ant" , "bird", "lion" , "dog", "goat"]
 
-function findAnimal(txt){
-    let a = txt.split('')
+// function findAnimal(txt){
+//     let a = txt.split('')
     //console.log(a)
-    let animals = []
-    animal_list.forEach((ele) =>{
-        let aa= ele.split('')
-        //console.log(aa)
-          const isMatch = aa.every((e) =>{
-            return a.includes(e)
-              })
-                if(isMatch){
-                    animals.push(ele)
+//     let animals = []
+//     animal_list.forEach((ele) =>{
+//         let aa= ele.split('')
+//         //console.log(aa)
+//           const isMatch = aa.every((e) =>{
+//             return a.includes(e)
+//               })
+//                 if(isMatch){
+//                     animals.push(ele)
                     
-                }
-            }
-        )
-        return animals
-    }
+//                 }
+//             }
+//         )
+//         return animals
+//     }
         
-console.log(findAnimal("ifoxdglnta"))
+// console.log(findAnimal("ifoxdglnta"))
   
 
 
@@ -89,3 +89,32 @@ console.log(findAnimal("ifoxdglnta"))
 // }
         
 // console.log(findAnimal("ilon"))
+
+
+
+
+
+
+
+//  C - task 
+
+
+//  masala sharti 
+
+//  C-TASK 
+
+//Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
+//MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
+
+//masala yechimi 
+
+function text(word , input_word){
+   let a= word.split('')
+   let c= input_word.split('')
+    return last= a.every((ele)=> c.includes(ele))
+
+    
+}
+
+console.log(text('aaarrvs', 'sarvaar'))
+
