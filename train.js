@@ -1,3 +1,35 @@
+//  C-TASK 
+
+
+//Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
+//MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
+
+//masala yechimi 
+ 
+function text(word , input_word){
+   let a= word.split('')
+   let c= input_word.split('')
+    return last= a.every((ele)=> c.includes(ele))
+
+    
+}
+
+console.log(text('aaarrvs', 'sarvaar'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*   A-task 
 
 Shunday 2 parametrli function tuzing, hamda birinchi parametrdagi letterni ikkinchi parametrdagi sozdan qatnashga sonini return qilishi kerak boladi.
