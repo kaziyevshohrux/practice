@@ -56,3 +56,12 @@ def d_kwargs(**kwargs):
 
 d_kwargs(name='omar', age = 21)
 d_kwargs(name='jastin', age=54)
+
+print('=======================================================================================')
+
+
+def ar_kwa(*args, **kwarg):
+    print(f"args  ->  {args} ")
+    print(f"kwargs  ->  {kwarg}")
+
+ar_kwa(True, 10 , 45, 'sallom', name='jalaqduq', age=22,)
