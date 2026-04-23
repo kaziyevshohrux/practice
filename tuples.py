@@ -47,3 +47,12 @@ def num(*args):
  
 num(1,2,5)
 num(-10,5,1)
+
+
+print('====kwargs====')
+
+def d_kwargs(**kwargs):
+    print(f"my name is {kwargs["name"]} and i am {kwargs["age"]}")
+
+d_kwargs(name='omar', age = 21)
+d_kwargs(name='jastin', age=54)
