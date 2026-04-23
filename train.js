@@ -25,6 +25,7 @@ function hn(numbs){
 console.log(hn([5, 21, 22, 21, 8]))
 
 
+
 let mix = [1,2,[45,65,7],87]
 
 console.log(...mix)

@@ -142,7 +142,41 @@
 # tple = fruits[1:4:2]
 # print(tple)
 
-fruits = {'banana', 'orange', 'mango', 'lemon'}
-vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
-fruits.update(vegetables)
-print(fruits)
+# fruits = {'banana', 'orange', 'mango', 'lemon'}
+# vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
+# fruits.update(vegetables)
+# print(fruits)
+
+# sets
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+a= len(age)
+ages = set(age)
+b= len(ages)
+print('list:',a,   'set:',b)
+# print(age)
+# res = A.symmetric_difference(B)
+# print(res)
+#A.union(B)
+## a= len(it_companies)
+# print(a)
+# it_companies.clear()
+# print(it_companies)
+# it_companies.add('Twitter')
+# print(it_companies)
+
+# oneremobve=it_companies.pop()
+# print(oneremobve)
+
+#it_companies.remove('Google')
+#print(it_companies)
+
+# it_companies.discard('IBM')
+# print(it_companies)
+
+gap = 'I am a teacher and I love to inspire and teach people'
+res = gap.split()
+last = set(res)
+print(last)  
