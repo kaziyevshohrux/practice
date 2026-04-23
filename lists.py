@@ -70,3 +70,28 @@ print(numbers)
 sortednum = sorted(numbers)
 
 print(sortednum)
+
+
+
+print('========lamda========')
+
+def xyz(x,y): return x*y
+print(xyz(5,5))
+
+
+
+people = [
+    ('omar', 21, 'a'),
+    ('ulugbek' ,45, 'l'),
+    ('joratbe', 65, 'c'),
+    ('furqat', 18, 's')
+]
+
+people.sort()
+print(people)
+
+print('====yosh====')
+
+
+people.sort(key=lambda person:person[2])
+print(people)
