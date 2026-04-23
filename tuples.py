@@ -25,3 +25,25 @@ print(fruits)
 #fruits.append('465') 
 
 print(fruits)
+
+
+print('====unpacking')
+
+
+name = ['umar', 'ali', 'ali']
+(x,y,z) = name
+print(y)
+
+num = (1,2,3,5,5,4,5)
+(x,y,*args)= num
+print(args)
+
+
+def num(*args):
+    total = 1
+    for i in args:
+        total*=i
+    print(f"total -> {total}")
+ 
+num(1,2,5)
+num(-10,5,1)
