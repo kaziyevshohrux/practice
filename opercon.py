@@ -74,3 +74,9 @@ elif is_guest:
     print('go to guest room')
 else:
     print('go to home')
+
+
+
+a= -6 
+b= -6 
+print(id(a)==id(b))

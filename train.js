@@ -1,3 +1,47 @@
+//D-TASK (NodeJS)
+
+//Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
+//MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
+
+
+ // 1-yechim
+
+function getHighIndex(num){
+    //console.log(...num) 
+    return max = Math.max(...num)
+}
+console.log(getHighIndex([5, 21, 12, 21, 8]))
+
+// 2- yechim 
+
+function hn(numbs){
+    a = numbs[0]
+    for (i=0; numbs.length>i; i++){
+        if(numbs[i]>a)
+            a=numbs[i]
+    }
+    return a
+}
+console.log(hn([5, 21, 22, 21, 8]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //  C-TASK 
 
 
@@ -6,15 +50,15 @@
 
 //masala yechimi 
  
-function text(word , input_word){
-   let a= word.split('')
-   let c= input_word.split('')
-    return last= a.every((ele)=> c.includes(ele))
+// function text(word , input_word){
+//    let a= word.split('')
+//    let c= input_word.split('')
+//     return last= a.every((ele)=> c.includes(ele))
 
     
-}
+// }
 
-console.log(text('aaarrvs', 'sarvaar'))
+// console.log(text('aaarrvs', 'sarvaar'))
 
 
 
@@ -140,13 +184,13 @@ console.log("=============================================")
 
 //masala yechimi 
 
-function text(word , input_word){
-   let a= word.split('')
-   let c= input_word.split('')
-    return last= a.every((ele)=> c.includes(ele))
+// function text(word , input_word){
+//    let a= word.split('')
+//    let c= input_word.split('')
+//     return last= a.every((ele)=> c.includes(ele))
 
     
-}
+// }
 
-console.log(text('aaarrvs', 'sarvaar'))
+// console.log(text('aaarrvs', 'sarvaar'))
 
