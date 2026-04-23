@@ -65,3 +65,12 @@ def ar_kwa(*args, **kwarg):
     print(f"kwargs  ->  {kwarg}")
 
 ar_kwa(True, 10 , 45, 'sallom', name='jalaqduq', age=22,)
+
+
+
+print('=========zip==============')
+num= (1,2,3,4,5)
+alp = ('a','b', 'c' ,'')
+zipped = zip(num, alp)
+result = list(zipped)
+print(result)
