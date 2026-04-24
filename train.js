@@ -1,3 +1,32 @@
+// E-TASK (NodeJS)
+
+// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+
+function getreverse(word){
+    return word.split('').reverse().join('')
+}
+console.log(getreverse('salom'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //D-TASK (NodeJS)
 
 //Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
@@ -6,29 +35,29 @@
 
  // 1-yechim
 
-function getHighIndex(num){
-    //console.log(...num) 
-    return max = Math.max(...num)
-}
-console.log(getHighIndex([5, 21, 12, 21, 8]))
+// function getHighIndex(num){
+//     //console.log(...num) 
+//     return max = Math.max(...num)
+// }
+// console.log(getHighIndex([5, 21, 12, 21, 8]))
 
-// 2- yechim 
+// // 2- yechim 
 
-function hn(numbs){
-    a = numbs[0]
-    for (i=0; numbs.length>i; i++){
-        if(numbs[i]>a)
-            a=numbs[i]
-    }
-    return a
-}
-console.log(hn([5, 21, 22, 21, 8]))
+// function hn(numbs){
+//     a = numbs[0]
+//     for (i=0; numbs.length>i; i++){
+//         if(numbs[i]>a)
+//             a=numbs[i]
+//     }
+//     return a
+// }
+// console.log(hn([5, 21, 22, 21, 8]))
 
 
 
-let mix = [1,2,[45,65,7],87]
+// let mix = [1,2,[45,65,7],87]
 
-console.log(...mix)
+// console.log(...mix)
 
 
 
@@ -199,4 +228,8 @@ console.log("=============================================")
 // }
 
 // console.log(text('aaarrvs', 'sarvaar'))
+
+
+
+
 

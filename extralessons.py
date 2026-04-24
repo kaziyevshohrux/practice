@@ -148,14 +148,6 @@
 # print(fruits)
 
 # sets
-it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-A = {19, 22, 24, 20, 25, 26}
-B = {19, 22, 20, 25, 26, 24, 28, 27}
-age = [22, 19, 24, 25, 26, 24, 25, 24]
-a= len(age)
-ages = set(age)
-b= len(ages)
-print('list:',a,   'set:',b)
 # print(age)
 # res = A.symmetric_difference(B)
 # print(res)
@@ -176,7 +168,8 @@ print('list:',a,   'set:',b)
 # it_companies.discard('IBM')
 # print(it_companies)
 
-gap = 'I am a teacher and I love to inspire and teach people'
-res = gap.split()
-last = set(res)
-print(last)  
+# gap = 'I am a teacher and I love to inspire and teach people'
+# res = gap.split()
+# last = set(res)
+# print(last)  
+
