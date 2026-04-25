@@ -3,7 +3,7 @@ loops ...
 '''
 
 a = 'mit'
-num = (1,2,3,6,5,4)
+num = (1,2,3,6,5,6)
 obj = dict(name='umar', year=2000)
 
 for i in a:
