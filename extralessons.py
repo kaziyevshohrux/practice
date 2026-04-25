@@ -171,5 +171,5 @@
 # gap = 'I am a teacher and I love to inspire and teach people'
 # res = gap.split()
 # last = set(res)
-# print(last)  
+# printlast)  
 
