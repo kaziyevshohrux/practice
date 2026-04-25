@@ -1,6 +1,7 @@
 '''
 1) Array
 2)set
+3)set operators
 '''
 
 from array import array 
