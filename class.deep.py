@@ -64,7 +64,7 @@ person = bankAccount('jone' , 1000)
 
 #account_owner = person.holder     #  getter state 
 #print(f"account owner : {account_owner})
-print(f"before change owner : {person.holder}")
+print(f"begore change owner : {person.holder}")
 
 #person.new_owner('umar')
 #person.checkBalance()
