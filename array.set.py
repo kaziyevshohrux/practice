@@ -64,3 +64,5 @@ print(result3)
 
 result4 = num1 ^ num2
 print(result4)
+
+print(result1,result2)
