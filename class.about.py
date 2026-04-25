@@ -16,7 +16,7 @@
 
 # person1 = Person('omar' , 21)
 # person2 = Person('aziz' , 65)
-# persom3 = Person('ulube', 54)
+# persom3 = Person('lube', 54)
 
 # person1.introduce()
 # print(person2.name)
