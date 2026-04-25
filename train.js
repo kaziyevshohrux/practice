@@ -6,7 +6,7 @@
 function getreverse(word){
     return word.split('').reverse().join('')
 }
-console.log(getreverse('helllou'))
+console.log(getreverse('hellou'))
 
 
 
