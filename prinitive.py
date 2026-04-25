@@ -50,7 +50,7 @@ test_truth= 'dasas' or 100  or -10
 print(bool(test_truth))
 
 
-print('===========scopes===========')
+print('===========scopess===========')
 b=100
 def calculate(a):
     c= a*b
