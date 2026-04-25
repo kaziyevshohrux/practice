@@ -1,6 +1,6 @@
 # itarable objects
 
-# string , list , tuple , range , set , dict .... - - bu data type lar iterable objects hisoblanadi
+# string , list , uple , range , set , dict .... - - bu data type lar iterable objects hisoblanadi
 
 a = 'mit'
 for letter in a:
