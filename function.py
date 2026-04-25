@@ -8,7 +8,7 @@
 
 # function ; block of code that performs a specific task
 
-# java {}   , python : indentation
+# java {}   , python : indentaion
 
 # define
 
