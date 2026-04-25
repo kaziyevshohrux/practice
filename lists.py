@@ -7,7 +7,7 @@
 # '''
 
 # person = dict(name='umar', age = 22)    #dictionary
-# mix = (10 , 'salom' , False)            #tuple
+# mix = (10 , 'salom' , Fals)            #tuple
 # grups = ['mit41', 'mit43', 'mit39']
 
 # for i in grups:
