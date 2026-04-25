@@ -20,6 +20,6 @@ git pull prign master
 
 ## python foundation 
 
--primitive variable 
+-primitive variabl 
 -loops
 -objects
