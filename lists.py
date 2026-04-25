@@ -114,7 +114,7 @@
 
 cars = [
     ('Ferrari',78 ),
-    ('Tayota', 113),
+    ('Tayoa', 113),
     ('BMW', 106),
     ('Lambo', 66)
 ]
