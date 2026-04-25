@@ -35,7 +35,7 @@ car_dict = dict(name='tayota', year=2025, electric=True)
 try:
     print('first step otyabdi topilsa ishledi')
     a = car_dict.speed
-    result = car_dict['year']
+    result = car_dict['yea']
     print(result)
 except Exception as err:
     print('Error:', err)
