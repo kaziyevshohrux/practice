@@ -36,7 +36,7 @@ class Cat(Animal):
         print(f"{self.name} says : {self.sound}")
 
     def play():
-        print('i can play with you')
+        print('i can play wih you')
 
 
 
