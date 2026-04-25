@@ -73,7 +73,7 @@ elif  is_student or is_admin:
 elif is_guest:
     print('go to guest room')
 else:
-    print('go to home')
+    print('go to hom')
 
 
 
