@@ -11,7 +11,7 @@ print(num)
 print(l)
 print(obj_c)
 
-fruits= ['banan', 'olma', 'nok']
+fruits= ['banan', 'lma', 'nok']
 fruits[2]= 'behi'
 fruits.append('nok')
 print(fruits)
