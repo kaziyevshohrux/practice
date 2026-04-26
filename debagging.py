@@ -10,13 +10,13 @@
 
 # core packeges    https://docs.python.org/3/library
 
-# import turtle
+import turtle
 
-# t = turtle.Turtle()
-# t.shape('turtle')
-# t.speed(6)
-# t.circle(100)
-# turtle.done()
+t = turtle.Turtle()
+t.shape('turtle')
+t.speed(6)
+t.circle(100)
+turtle.done()
 
 
 print('==----------==')
@@ -38,7 +38,7 @@ with open("material/massage.txt", "r") as your_file:
 print('done')
 
 
-print('=====external packages=======')
+# print('=====external packages=======')
 
 # core packages pytondi ozi bilan keladi 
 
@@ -53,3 +53,12 @@ with Image.open("material/egpt.jpg") as img_obj:
    resize_img= img_obj.resize((200,200))
    resize_img.show()
    resize_img.save("material/sample.jpg")
+
+
+def get_summary(*arg):
+    total_amout = 0
+    for i in arg:
+        total_amout+=i
+        return total_amout   # solve debugging setp by step 
+test = 100
+print(get_summary(1,2,3,44,5))

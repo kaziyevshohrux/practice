@@ -1,9 +1,9 @@
 # Dunder __builtins__ , __init__
 
-a = 100 
-print(a)
+# a = 100 
+# print(a)
 
-print('hello')
+# print('hello')
 
 ''''
  
@@ -14,4 +14,14 @@ in python , is theree= are bultin tools:
 3) CONSTANT : True , False , Nne  # for defining the constant values
 '''
 
-print(dir(__builtins__))  # for printing the list of built-in functions and types
+#print(dir(__builtins__))  # for printing the list of built-in functions and types
+
+
+# // target = 18
+# // def like(nums):
+# //     for i in nums:
+# //         cur = target - i
+# //         if cur in nums:
+# //             result=(i , cur)
+# //     return result
+# // print(like([2,7,15,14,3]))

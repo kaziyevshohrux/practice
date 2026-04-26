@@ -48,6 +48,11 @@ console.log(word('banana'))
 
 
 
+
+
+
+
+
 //D-TASK (NodeJS)
 
 //Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
