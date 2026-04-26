@@ -37,3 +37,31 @@ cars = [
 
 car_filter = [car[0] for car in cars if car[1]>80]
 print(car_filter)
+
+
+
+
+print('=====dict and set comp========')
+
+people = [
+    ('Umar', 24),
+    ('Ali', 31),
+    ('Aziz', 26),
+    ('Farux',17),
+    ('Ismail', 20)
+]
+
+numbers = [5,2,4,3,0,1,13,1,0,2,35,2,14,5,5,1,24]
+
+new_set_num = {*numbers}                #1
+print(new_set_num)
+
+
+print('===========dict==========')
+
+person_dic = {person[0] : person[1] for person in people}          #2
+print(person_dic)
+
+
+person_age = {person[0]:person[1] for person in people if person[1]>20}
+print(person_age)
