@@ -23,3 +23,17 @@ git pull prign master
 -primitive variabl 
 -loops
 -objects
+
+
+
+# pip commands :
+
+"""
+pip install ""
+pip list 
+pip uninstall pillow
+pip show pillow
+pip freeze > requirment.txt    
+
+
+"""
