@@ -71,18 +71,3 @@ print(result4)
 print(result1,result2)
 
 
-
-
-numbers = [0,1,2,2,3,3,3,4,4,4,4]
-
-
-
-nums = [7, 11, 15,1,5,4,6]
-target = 9 
-
-filtered = filter(lambda ele : ele < target , nums)
-resul = list(filtered)
-
-for i in resul:
-    target-=i
-    if()
