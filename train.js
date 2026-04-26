@@ -3,15 +3,36 @@
 // Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
 // MASALAN: getReverse("hello") return qilsin "olleh"
 
-function getreverse(word){
-    return word.split('').reverse().join('')
+// function getreverse(word){
+//     return word.split('').reverse().join('')
+// }
+// <<<<<<< HEAD
+// console.log(getreverse('hellou'))
+// =======
+// console.log(getreverse('salom'))
+// >>>>>>> 70f177d532444e326c50ff3b43e593c9b510da01
+
+
+
+
+//   text = "banana"  
+
+function word(txt){
+    let result = {}
+   // let split_text = txt.split('')
+    //console.log(split_text)
+    for (i=0; txt.length>i; i++){
+        let every = txt[i]
+        if(result[every]){
+            result[every]++
+        }else{
+            result[every] = 1
+        }
+    }
+    return result
 }
-console.log(getreverse('hellou'))
 
-
-
-
-
+console.log(word('banana'))
 
 
 
