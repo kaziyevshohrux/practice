@@ -17,11 +17,21 @@ in python , is theree= are bultin tools:
 #print(dir(__builtins__))  # for printing the list of built-in functions and types
 
 
-# // target = 18
-# // def like(nums):
-# //     for i in nums:
-# //         cur = target - i
-# //         if cur in nums:
-# //             result=(i , cur)
-# //     return result
-# // print(like([2,7,15,14,3]))
+target = 18
+def like(nums):
+    for i in nums:
+        cur = target - i
+        if cur in nums:
+            result=(i , cur)
+    return tuple(sorted(result))
+print(like([3,2,7,15,14]))
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct['key5'] = 'value5'
+print(dct)
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.items()) # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'), ('key4', 'value4')])

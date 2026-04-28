@@ -1,3 +1,35 @@
+// F-TASK (NodeJS)
+
+// Shunday findDoublers function tuzing, unga faqat bitta string argument pass bolib, agar stringda bir hil harf qatnashgan bolsa true, qatnashmasa false qaytarishi kerak.
+// MASALAN: getReverse("hello") return true return qiladi
+
+
+function getReverse(word){
+    a = word.split('')
+    let set = new Set(a)
+    if(a.length > set.size){
+        
+        return true
+    }else{
+        return false
+    }
+}
+console.log(getReverse('helo'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // E-TASK (NodeJS)
 
 // Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
@@ -17,27 +49,34 @@
 
 //   text = "banana"  
 
-function word(txt){
-    let result = {}
-   // let split_text = txt.split('')
-    //console.log(split_text)
-    for (i=0; txt.length>i; i++){
-        let every = txt[i]
-        if(result[every]){
-            result[every]++
-        }else{
-            result[every] = 1
-        }
-    }
-    return result
-}
+// function word(txt){
+//     let result = {}
+//    // let split_text = txt.split('')
+//     //console.log(split_text)
+//     for (i=0; txt.length>i; i++){
+//         let every = txt[i]
+//         if(result[every]){
+//             result[every]++
+//         }else{
+//             result[every] = 1
+//         }
+//     }
+//     return result
+// }
 
-console.log(word('banana'))
-
-
+// console.log(word('banana'))
 
 
 
+
+// target = 18
+// def like(nums):
+//     for i in nums:
+//         cur = target - i
+//         if cur in nums:
+//             result=(i , cur)
+//     return result
+// print(like([2,7,15,14,3]))
 
 
 
