@@ -33,5 +33,5 @@ print(student)
 print(len(student))
 
 #5 
-student_skills = student['skills']
+student_sills = student['skills']
 print(student_skills)
