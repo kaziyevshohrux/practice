@@ -24,7 +24,7 @@ def like(nums):
         if cur in nums:
             result=(i , cur)
     return tuple(sorted(result))
-print(like([3,2,7,15,14]))
+print(like([3,2,7,15,]))
 
 
 # syntax
