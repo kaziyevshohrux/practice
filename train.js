@@ -1,13 +1,48 @@
-// H-TASK (NodeJS)
+// J-TASK (NodeJS)
 
-// shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive qiymatlarni olib string holatda return qilsin
-// MASALAN: getPositive([1, -4, 2]) return qiladi "12"
+// Shunday function yozing, u parametridagi array ichida eng kop takrorlangan raqamni topib qaytarsin.
+// MASALAN: majorityElement([1,2,3,4,5,4,3,4]) return 4
 
 
-function getpos(arr){
-    return arr.filter((ele)=> ele>0).join('')
+function majorityElement(arr){
+    result={}
+    let count = 0
+    let ele = null
+    for (i=0; arr.length>i;i++){
+        let every=arr[i]
+        if(result[arr[i]]){
+           
+            result[every]++
+        }else{
+            result[every]=1
+        }
+        if (result[every]>count){
+            count=result[every]
+            ele = every
+        }
+        
+    }
+    return ele
 }
-console.log(getpos([1,-4,12]))
+console.log(majorityElement([1,2,3,4,5,4,3,4,5,5,5]))
+
+
+
+
+
+
+
+
+// // H-TASK (NodeJS)
+
+// // shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive qiymatlarni olib string holatda return qilsin
+// // MASALAN: getPositive([1, -4, 2]) return qiladi "12"
+
+
+// function getpos(arr){
+//     return arr.filter((ele)=> ele>0).join('')
+// }
+// console.log(getpos([1,-4,12]))
 
 
 
