@@ -1,30 +1,36 @@
-// J-TASK (NodeJS)
-
-// Shunday function yozing, u parametridagi array ichida eng kop takrorlangan raqamni topib qaytarsin.
-// MASALAN: majorityElement([1,2,3,4,5,4,3,4]) return 4
 
 
-function majorityElement(arr){
-    result={}
-    let count = 0
-    let ele = null
-    for (i=0; arr.length>i;i++){
-        let every=arr[i]
-        if(result[arr[i]]){
+
+
+
+
+// // J-TASK (NodeJS)
+
+// // Shunday function yozing, u parametridagi array ichida eng kop takrorlangan raqamni topib qaytarsin.
+// // MASALAN: majorityElement([1,2,3,4,5,4,3,4]) return 4
+
+
+// function majorityElement(arr){
+//     result={}
+//     let count = 0
+//     let ele = null
+//     for (i=0; arr.length>i;i++){
+//         let every=arr[i]
+//         if(result[arr[i]]){
            
-            result[every]++
-        }else{
-            result[every]=1
-        }
-        if (result[every]>count){
-            count=result[every]
-            ele = every
-        }
+//             result[every]++
+//         }else{
+//             result[every]=1
+//         }
+//         if (result[every]>count){
+//             count=result[every]
+//             ele = every
+//         }
         
-    }
-    return ele
-}
-console.log(majorityElement([1,2,3,4,5,4,3,4,5,5,5]))
+//     }
+//     return ele
+// }
+// console.log(majorityElement([1,2,3,4,5,4,3,4,5,5,5]))
 
 
 
