@@ -1,8 +1,14 @@
+// L-TASK (NodeJS)
 
+// Shunday function yozing, u string qabul qilsin va string ichidagi hamma sozlarni chappasiga yozib va sozlar ketma-ketligini buzmasdan stringni qaytarsin.
+// MASALAN: reverseSentence("we like coding!") return "ew ekil gnidoc"
 
+function reverseSentence(gap){
+    return gap.split(" ").map((ele) => ele.split("").reverse().join('')).join(' ')
 
+}
 
-
+console.log(reverseSentence("we like coding!"))
 
 // // J-TASK (NodeJS)
 
