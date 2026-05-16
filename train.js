@@ -6,7 +6,8 @@
 function getSquareNumbers(nums){
     l=[]
     for (i=0; nums.length>i; i++){
-        l.push(`number: ${nums[i]}, square: ${nums[i]**2}}`)
+        l.push({number: nums[i],
+                square: nums[i]**2})
     }
     return l
 
