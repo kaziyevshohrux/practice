@@ -4,15 +4,17 @@
 # MASALAN: calculate_summary([10, "10", {son: 10}, true, 35]) return 45
 
 def calculate_summary(arr):
-    a = []
+    last = []
     for i in arr:
-        if type(i)==int:
-            a.append(i)
+        if type(i) == int:
+            last.append(i)
 
-    print(sum(a))
+    print(sum(last))  
 
-calculate_summary([10, "10", { "son" : 10}, True, 35])
 
+
+
+calculate_summary([10, "10",45, {'son': 10}, True, 35])
 
 
 
