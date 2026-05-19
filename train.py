@@ -1,20 +1,44 @@
+# O-TASK (PYTHON)
+
+# Shunday function yozing, u har xil valuelardan iborat array qabul qilsin va List ichidagi sonlar yigindisini hisoblab chiqqan javobni qaytarsin.
+# MASALAN: calculate_summary([10, "10", {son: 10}, true, 35]) return 45
+
+def calculate_summary(arr):
+    a = []
+    for i in arr:
+        if type(i)==int:
+            a.append(i)
+
+    print(sum(a))
+
+calculate_summary([10, "10", { "son" : 10}, True, 35])
+
+
+
+
+
+
+
+
+
+
 # M-TASK (PYTHON)
 
 # Shunday function yozing, u string qabul qilsin va string palindrom yani togri oqilganda ham, orqasidan oqilganda ham bir hil oqiladigan soz ekanligini aniqlab boolean qiymat qaytarsin.
 # MASALAN: palindrom_check("dad") return True;  palindrom_check("son") return False;
 
 
-def palindrom(gap):
-    for i in gap[-1::-1]:
-        break
-    for j in gap:
-        break
+# def palindrom(gap):
+#     for i in gap[-1::-1]:
+#         break
+#     for j in gap:
+#         break
 
-    if i==j:
-        print(True)
-    else:
-        print(False)
-palindrom('adada')
+#     if i==j:
+#         print(True)
+#     else:
+#         print(False)
+# palindrom('adada')
 
 
 
@@ -56,7 +80,6 @@ palindrom('adada')
 
 # Shunday function tuzing, unga string argument pass bolsin. Function ushbu agrumentdagi digitlarni yangi stringda return qilsin
 # MASALAN: get_digits("m14i1t") return qiladi "141"
-# nums = [1,2,3,4,5,6,7,8,9,0]
 # def get_digits(blabla):
 #     res=[]
 #     for i in blabla:

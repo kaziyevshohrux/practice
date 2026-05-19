@@ -24,7 +24,6 @@ console.log(getSquareNumbers([1,2,3,4]))
 
 
 
-
 // L-TASK (NodeJS)
 
 // Shunday function yozing, u string qabul qilsin va string ichidagi hamma sozlarni chappasiga yozib va sozlar ketma-ketligini buzmasdan stringni qaytarsin.
