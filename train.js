@@ -3,7 +3,12 @@
 // Shunday function yozing, u object qabul qilsin va arrayni object arrayga otkazib arrayni qaytarsin qaytarsin.
 // MASALAN: objectToArray( {a: 10, b: 20}) return [['a', 10], ['b', 20]]
 function objectToArray(obj){
-    return Object.entries(obj)
+    let result = [];
+    for (let i = 0; Object.keys(obj).length > i; i++){
+        let key = Object.keys(obj)[i];
+        result.push([key, obj[key]]);
+    }
+    return result;
 }
 console.log(objectToArray({a: 10, b: 20}))
 
