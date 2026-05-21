@@ -1,6 +1,16 @@
 
+# P-TASK (NodeJS)
 
+# Shunday function yozing, u object qabul qilsin va arrayni object arrayga otkazib arrayni qaytarsin qaytarsin.
+# MASALAN: objectToArray( {a: 10, b: 20}) return [['a', 10], ['b', 20]]
 
+def object_to_array(obj):
+    res = []
+    for i in obj:
+        res.append([i, obj[i]])
+    return res
+
+print(object_to_array({'a': 10, 'b': 20}))
 
 
 
