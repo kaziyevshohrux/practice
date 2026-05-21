@@ -1,20 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
+
 # O-TASK (PYTHON)
 
 # Shunday function yozing, u har xil valuelardan iborat array qabul qilsin va List ichidagi sonlar yigindisini hisoblab chiqqan javobni qaytarsin.
 # MASALAN: calculate_summary([10, "10", {son: 10}, true, 35]) return 45
 
-def calculate_summary(arr):
-    last = []
-    for i in arr:
-        if type(i) == int:
-            last.append(i)
+# def calculate_summary(arr):
+#     last = []
+#     for i in arr:
+#         if type(i) == int:
+#             last.append(i)
 
-    print(sum(last))  
-
-
+#     print(sum(last))  
 
 
-calculate_summary([10, "10",45, {'son': 10}, True, 35])
+
+
+# calculate_summary([10, "10",45, {'son': 10}, True, 35])
 
 
 
